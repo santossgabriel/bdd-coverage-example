@@ -1,0 +1,5 @@
+/testcontainer:"C:\Users\gabriel.rosa\Documents\Visual Studio 2015\Projects\BddDomain\BddDomainTests\bin\Debug\BddDomainTests.dll" /test:AdicionarComEmailInvalido
+
+.\packages\OpenCover.4.7.922\tools\OpenCover.Console.exe -register:user -target:"C:\custom-commands\MSTest.exe"
+
+.\packages\OpenCover.4.7.922\tools\OpenCover.Console.exe -register:user -target:"C:\custom-commands\MSTest.exe" -targetargs:"/testcontainer:BddDomainTests\bin\Debug\BddDomainTests.dll  /resultsfile:.\results-mstest.xml" -filter:+[*]* -output:.\coverage.xml

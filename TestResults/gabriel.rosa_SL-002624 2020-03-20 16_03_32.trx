@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2e186854-6bd5-4562-9984-205bd0fa61c1" name="gabriel.rosa@SL-002624 2020-03-20 16:03:32" runUser="CWINET\gabriel.rosa" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="caeeab9e-f85f-43b3-992c-73c986fb004c">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="gabriel.rosa_SL-002624 2020-03-20 16_03_32" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2020-03-20T16:03:32.3656679-03:00" queuing="2020-03-20T16:03:34.8079403-03:00" start="2020-03-20T16:03:34.9899421-03:00" finish="2020-03-20T16:03:35.9089416-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>-&gt; Using app.config
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AdicionarComEmailInvalido" storage="bdddomaintests\bin\debug\bdddomaintests.dll" id="b44daca2-42a3-5963-2332-8fc41b7353d0">
+      <Description>Adicionar com email inválido</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="QualityAssurance" />
+      </TestCategory>
+      <Execution id="13ff3c91-462c-432b-90d4-2af730b989f8" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Adicionar pessoa</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/gabriel.rosa/Documents/Visual Studio 2015/Projects/BddDomain/BddDomainTests/bin/Debug/BddDomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BddDomainTests.AdicionarPessoaFeature, BddDomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AdicionarComEmailInvalido" />
+    </UnitTest>
+    <UnitTest name="AdicionarComNomeInvalido" storage="bdddomaintests\bin\debug\bdddomaintests.dll" id="bce0a0f3-d788-d9a6-026b-adeea8f8746e">
+      <Description>Adicionar com nome inválido</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="QualityAssurance" />
+      </TestCategory>
+      <Execution id="4dcd864e-8c9f-44ef-9447-e931c89f6521" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Adicionar pessoa</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/gabriel.rosa/Documents/Visual Studio 2015/Projects/BddDomain/BddDomainTests/bin/Debug/BddDomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BddDomainTests.AdicionarPessoaFeature, BddDomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AdicionarComNomeInvalido" />
+    </UnitTest>
+    <UnitTest name="AdicionarOK" storage="bdddomaintests\bin\debug\bdddomaintests.dll" id="6a19e969-9b1a-b7fc-0e23-89ef1828f67f">
+      <Description>Adicionar OK</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="QualityAssurance" />
+      </TestCategory>
+      <Execution id="90fdb4f7-7368-47dc-bf20-9a185a8256c1" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Adicionar pessoa</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/gabriel.rosa/Documents/Visual Studio 2015/Projects/BddDomain/BddDomainTests/bin/Debug/BddDomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BddDomainTests.AdicionarPessoaFeature, BddDomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AdicionarOK" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b44daca2-42a3-5963-2332-8fc41b7353d0" executionId="13ff3c91-462c-432b-90d4-2af730b989f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bce0a0f3-d788-d9a6-026b-adeea8f8746e" executionId="4dcd864e-8c9f-44ef-9447-e931c89f6521" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a19e969-9b1a-b7fc-0e23-89ef1828f67f" executionId="90fdb4f7-7368-47dc-bf20-9a185a8256c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="13ff3c91-462c-432b-90d4-2af730b989f8" testId="b44daca2-42a3-5963-2332-8fc41b7353d0" testName="AdicionarComEmailInvalido" computerName="SL-002624" duration="00:00:00.1403590" startTime="2020-03-20T16:03:35.0439420-03:00" endTime="2020-03-20T16:03:35.8339436-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ff3c91-462c-432b-90d4-2af730b989f8">
+      <Output>
+        <StdOut>Dado que eu esteja cadastrando um usuário
+-&gt; done: PessoaTests.CadastrandoPessoa() (0,0s)
+Quando eu enviar o nome 'asdas' e email ''
+-&gt; done: PessoaTests.EnviarNomeEmail("'asdas'", "''") (0,0s)
+Então vou receber o retorno false
+-&gt; done: PessoaTests.Receber(False) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4dcd864e-8c9f-44ef-9447-e931c89f6521" testId="bce0a0f3-d788-d9a6-026b-adeea8f8746e" testName="AdicionarComNomeInvalido" computerName="SL-002624" duration="00:00:00.0010942" startTime="2020-03-20T16:03:35.8359425-03:00" endTime="2020-03-20T16:03:35.8399443-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dcd864e-8c9f-44ef-9447-e931c89f6521">
+      <Output>
+        <StdOut>Dado que eu esteja cadastrando um usuário
+-&gt; done: PessoaTests.CadastrandoPessoa() (0,0s)
+Quando eu enviar o nome '' e email 'asdasdasds'
+-&gt; done: PessoaTests.EnviarNomeEmail("''", "'asdasdasds'") (0,0s)
+Então vou receber o retorno false
+-&gt; done: PessoaTests.Receber(False) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90fdb4f7-7368-47dc-bf20-9a185a8256c1" testId="6a19e969-9b1a-b7fc-0e23-89ef1828f67f" testName="AdicionarOK" computerName="SL-002624" duration="00:00:00.0009190" startTime="2020-03-20T16:03:35.8429436-03:00" endTime="2020-03-20T16:03:35.8459431-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90fdb4f7-7368-47dc-bf20-9a185a8256c1">
+      <Output>
+        <StdOut>Dado que eu esteja cadastrando um usuário
+-&gt; done: PessoaTests.CadastrandoPessoa() (0,0s)
+Quando eu enviar o nome 'asdas' e email 'aaasdass@ssd'
+-&gt; done: PessoaTests.EnviarNomeEmail("'asdas'", "'aaasdass@ssd'") (0,0s)
+Então vou receber o retorno true
+-&gt; done: PessoaTests.Receber(True) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

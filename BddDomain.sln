@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddDomain", "BddDomain\BddDomain.csproj", "{AF59D068-E3E1-427B-9C5F-3C75250A68C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddDomainTests", "BddDomainTests\BddDomainTests.csproj", "{62723F74-A30C-4F0A-B40A-BC6F20FE3905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF59D068-E3E1-427B-9C5F-3C75250A68C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF59D068-E3E1-427B-9C5F-3C75250A68C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF59D068-E3E1-427B-9C5F-3C75250A68C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF59D068-E3E1-427B-9C5F-3C75250A68C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62723F74-A30C-4F0A-B40A-BC6F20FE3905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62723F74-A30C-4F0A-B40A-BC6F20FE3905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62723F74-A30C-4F0A-B40A-BC6F20FE3905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62723F74-A30C-4F0A-B40A-BC6F20FE3905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
